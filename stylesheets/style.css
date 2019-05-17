@@ -28,7 +28,7 @@ body {
     color:black;
     transition: 0s background-color;
     margin-bottom: 50%;
-    font-size:1.25em;
+    font-size:1.00em;
     text-decoration-color: #5bbdea; 
   
   
@@ -85,7 +85,7 @@ body {
     text-align:left;
     padding:0 1em;
     display: inline-block;
-    font-size:1.1em;
+    font-size:1em;
     
   
   }
