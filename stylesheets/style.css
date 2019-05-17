@@ -1,0 +1,92 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  /*
+  color trio <3 llbean bois in the buildin
+  #5bbdea blue
+  #d9aa5f tan
+  #d96e5f orangeish
+  
+  side nav, header watever
+  */
+  
+  .sideNav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  li{
+    margin: 10px 0;
+  
+  }
+  
+   a{
+    text-decoration: none;
+    color:black;
+    transition: 0s background-color;
+    margin-bottom: 50%;
+    font-size:1.5em;
+    text-decoration-color: #5bbdea; 
+  
+  
+  }
+  a:hover{
+    background-color:#5bbdea;    
+    transition-delay:.25s;
+  }
+  
+  /*lefts... thanks PaulieD https://codepen.io/Paulie-D/pen/ejlzp */
+  
+  
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  #photo{
+    height:275px;
+    width:275px;
+    display: block;
+  
+  }
+  #featureLeft {
+      width:35%;
+    padding:1em;
+    display: inline-block;
+    margin-left: 1em;
+  
+  
+  }
+  #active{
+  
+    text-decoration: underline;
+    text-decoration-color: #5bbdea;
+  }
+  
+  #featureLeft img{
+    float:left;
+    border:solid #5bbdea;
+  
+  
+  }
+  
+  #featureLeft p { 
+      width:55%;
+    text-align:left;
+    padding:0 1em;
+    display: inline-block;
+    font-size:1.5em;
+  
+  
+  }
+  
+  
