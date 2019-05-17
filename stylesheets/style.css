@@ -1,5 +1,5 @@
 body {
-    padding: 50px;
+    padding: 40px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   }
   /*
@@ -53,18 +53,18 @@ body {
   }
   
   #photo{
-    height:200px;
-    width:200px;
+    height:150px;
+    width:150px;
     display: block;
   
   }
   #featureLeft {
-    width:35%;
+    width:30%;
     padding:1em;
     display: inline-block;
     margin-left: 1em;
     max-height: 300px;
-    min-width: 640px;
+    min-width: 550px;
   
   }
   #active{
@@ -81,7 +81,7 @@ body {
   }
   
   #featureLeft p { 
-      width:55%;
+      width:60%;
     text-align:left;
     padding:0 1em;
     display: inline-block;
@@ -91,7 +91,8 @@ body {
   }
   
   #splashContainer{
-    margin-left:20%
+    margin-left:5%;
+    min-width: 1200px;
 
 
   }
