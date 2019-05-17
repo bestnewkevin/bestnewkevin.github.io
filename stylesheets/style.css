@@ -35,7 +35,7 @@ body {
   }
   a:hover{
     background-color:#5bbdea;    
-    transition-delay:.25s;
+    transition-delay:.10s;
   }
   
   /*lefts... thanks PaulieD https://codepen.io/Paulie-D/pen/ejlzp */
