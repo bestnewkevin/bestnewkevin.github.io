@@ -1,47 +1,124 @@
 /* https://stackoverflow.com/a/46549061  Thank u <3 */
 
+
+
+
+.selected{
+
+
+
+}
+
+.game{
+
+
+
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background:white;
+}
+
 .grid {
-    display: grid;
-    grid-template-columns: repeat(4, .5fr);
-    grid-auto-rows: 175px;
-    margin-left:35%;
-    margin-right:35%;
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+    position: relative;
+    transition: all 0.4s linear;
+    transform-style: preserve-3d;
+    margin: 5px;
+  }
+  
+  .card,
+  .back,
+  .front {
+    height: 175px;
+    width: 175px;
+
+  }
+  
+  .back,
+  .front {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+  .front {
+    background: #fab942;
+    background-size: contain;
 
   }
 
-.card{
-    border-color: #5bbdea;
-    border-style: solid;
-    border-width: 5px;
-    background-color: #80cbc4;
+  .back {
+    transform: rotateY(180deg);
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 
+.match{
 
-
-
-}
-
-.opened{
-
-
-}
-
-.closed{
+    border: 4px solid red;
+    background-image: none !important;
+    
 
 
 }
 
-.cardPhoto{
-    height:175px;
-    width:175px;
+.selected {
+    transform: rotateY(180deg);
+  }
+  
+  .match .front {
+    background: white !important;
+  }
 
-
-
-}
-
-.cardBack{
-    height:175px;
-    width:175px;
-
-
-
-}
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    height: 25%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
