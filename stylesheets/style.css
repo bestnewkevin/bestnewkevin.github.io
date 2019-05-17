@@ -59,11 +59,12 @@ body {
   
   }
   #featureLeft {
-      width:35%;
+    width:35%;
     padding:1em;
     display: inline-block;
     margin-left: 1em;
-  
+    max-height: 300px;
+    min-width: 640px;
   
   }
   #active{
@@ -75,7 +76,7 @@ body {
   #featureLeft img{
     float:left;
     border:solid #5bbdea;
-  
+    
   
   }
   
@@ -85,8 +86,13 @@ body {
     padding:0 1em;
     display: inline-block;
     font-size:1.1em;
-  
+    
   
   }
   
+  #splashContainer{
+    margin-left:20%
+
+
+  }
   
