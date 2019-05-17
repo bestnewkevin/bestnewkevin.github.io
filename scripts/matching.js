@@ -44,7 +44,7 @@ let count = 0;
 let previousTarget = null;
 let delay = 600;
 
-let matchedCards = 10;
+let matchedCards = 0;
 
 const game = document.getElementById('game');
 const grid = document.createElement('section');
