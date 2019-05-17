@@ -1,0 +1,16 @@
+/* https://stackoverflow.com/a/46549061  Thank u <3 */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    margin-left:20%;
+  }
+
+.card{
+    
+    border-color:solid black;
+
+
+
+}

@@ -68,9 +68,7 @@ body {
   
   }
   #active{
-  
-    text-decoration: underline;
-    text-decoration-color: #5bbdea;
+    background-color:#5bbdea;    
   }
   
   #featureLeft img{
