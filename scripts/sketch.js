@@ -5,7 +5,7 @@ var g = 0;
 var b = 0;
 
 
-
+//credit to Original by Daniel Shiffman.https://p5js.org/examples/math-noise-wave.html.. made it blue to make it even more boring
 
 
 let yoff = 0.0; // 2nd dimension of perlin noise
@@ -18,7 +18,7 @@ function windowResized() {
 //setup
 function setup() {
 	canvas = createCanvas(windowWidth, windowHeight);
-	canvas.position(0,windowHeight/2.5);
+	canvas.position(0,windowHeight/2.5); //finally figured out how to lower it
 	canvas.style('z-index','-1');
 }
 
